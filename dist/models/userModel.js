@@ -23,6 +23,7 @@ const userSchema = new _mongoose.default.Schema({
   },
   password: {
     type: String,
+    minlength: 5,
     required: true
   },
   isAdmin: {

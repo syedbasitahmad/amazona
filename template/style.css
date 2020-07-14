@@ -19,7 +19,7 @@ body{
 }
 .header{
   grid-area: header;
-  background-color: rgb(218, 13, 74);
+  background-color: #dd0d52;
   color: #ffffff;
   display: flex;
   justify-content: space-between;
@@ -46,7 +46,7 @@ body{
 }
 .footer{
   grid-area: footer;
-  background-color: #203040;
+  background-color: #dd0d52;
   color: #ffffff;
   display: flex;
   justify-content: center;

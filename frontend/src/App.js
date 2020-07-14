@@ -31,7 +31,7 @@ function App() {
         <header className="header">
           <div className="brand">
             <button onClick={openMenu}>&#9776;</button>
-            <Link to="/">amazona</Link>
+            <Link to="/">Lina's Studio</Link>
           </div>
           <div className="header-links">
             <a href="cart.html">Cart</a>
@@ -59,13 +59,39 @@ function App() {
             x
           </button>
           <ul className="categories">
-            <li>
-              <Link to="/category/Pants">Pants</Link>
-            </li>
+          <li>
+          <Link to="/category/Suits">Suits</Link>
+        </li>
 
-            <li>
-              <Link to="/category/Shirts">Shirts</Link>
-            </li>
+        <li>
+          <Link to="/category/Sarees">Sarees</Link>
+        </li>
+        <li>
+          <Link to="/category/Stoles and Scarfs">Stoles and Scarfs</Link>
+        </li>
+        <li>
+          <Link to="/category/Ethnic and Fusionwear">Ethnic and Fusionwear</Link>
+        </li>
+        <li>
+          <Link to="/category/Westernwear">Westernwear</Link>
+        </li>
+        <li>
+          <Link to="/category/Sleepwear and Loungewear">Sleepwear and Loungewear</Link>
+        </li>
+        <li>
+          <Link to="/category/Sports and Activewear">Sports and Activewear</Link>
+        </li>
+        <li>
+          <Link to="/category/Bags Wallets and Clutches">Bags Wallets and Clutches</Link>
+        </li>
+        <li>
+        <Link to="/category/Footwear">Footwear</Link>
+      </li>
+      <li>
+      <Link to="/category/Other Accessories">Other Accessories</Link>
+    </li>
+
+        
           </ul>
         </aside>
         <main className="main">
@@ -85,7 +111,11 @@ function App() {
             <Route path="/" exact={true} component={HomeScreen} />
           </div>
         </main>
-        <footer className="footer">All right reserved.</footer>
+        <footer className="footer">Attire That You Desire<br></br>
+       
+        All right reserved. Contact (+91 9065481422 /  https://chat.whatsapp.com/EG9Wo7mBM7FCbzAN85hQ8X)
+        </footer>
+
       </div>
     </BrowserRouter>
   );
